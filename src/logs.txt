@@ -1,0 +1,41 @@
+210210_131238 --dgcnn --full object --arbitrary transformation  --lr = 0.01        74.773
+210212_054541 210219_135435 --voxnet --full object --arbitrary transformation    --lr = 0.01    pcd2tdf need to use {1,0}  0.26932  0.56932
+210218_034422 210219_135509 --pointnet  --full object --arbitrary transformation    --lr = 0.01  0.22386 0.16364
+210219_143354 --pointnet2  --full object --arbitrary transformation    --lr = 0.01  0.31591
+210212_152408 210219_134406 --rpmnet --full object --arbitrary transformation    --lr = 0.01     0.40000  0.46136
+210218_123255 210221_042844 --ar  --full object --arbitrary transformation    --lr = 0.01  0.79545
+
+210219_095215 --dgcnn --crop --arbitrary transformation  --lr = 0.01  0.20682
+210219_005902 --voxnet --crop --arbitrary transformation  --lr = 0.01   0.30795
+210219_010243 --rpmnet --crop --arbitrary transformation  --lr = 0.01   0.49205
+210219_011455 -- pointnet --crop --arbitrary transformation  --lr = 0.01 0.01023
+210219_144923 -- pointnet2 --crop --arbitrary transformation  --lr = 0.01  0.13977
+210219_010243 --rpmnet --crop --arbitrary transformation  --lr = 0.01   0.49205
+210220_135837 --ar  --crop --arbitrary transformation    --lr = 0.01  0.68909
+
+210219_150941 --dgcnn --crop --without transformation  --lr = 0.01    0.77159
+210219_094258 --voxnet --crop --without transformation  --lr = 0.01   0.74886
+210219_093614 --rpmnet --crop --without transformation  --lr = 0.01   0.78523
+210219_093813 -- pointnet --crop --without transformation  --lr = 0.01  0.54091
+210220_075941 --> 210220_113248 -- pointnet2 --crop --without transformation  --lr = 0.01 --> 0.53523
+210219_093614 --rpmnet --crop --without transformation  --lr = 0.01   0.78523
+210220_021850 --ar  --crop --without transformation    --lr = 0.01   0.86364
+
+210221_130408 --point2 multi
+210114_142504 --ar
+210221_043656 --dgcnn
+210223_013432 --rpmnet  210223_013432
+
+scan2cad
+210226_031647 --sraa++
+210225_123408 --sraa
+210226_031648 --voxnet
+210226_084703 --dgcnn
+210226_152733 --dgcnn++
+210226_152733 --pointnet2
+
+
+
+
+
+
